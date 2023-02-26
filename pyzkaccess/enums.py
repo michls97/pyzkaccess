@@ -157,6 +157,7 @@ EVENT_TYPES = DocDict({
     204: 'Normal Open Time Zone Over',
     205: 'Remote Normal Opening',
     206: 'Device start',
+    208: '208?',
     220: 'Auxiliary Input Disconnected',
     221: 'Auxiliary Input Shorted',
     255: 'Actually that obtain door status and alarm status',
