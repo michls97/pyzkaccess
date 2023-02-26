@@ -51,6 +51,7 @@ class VerifyMode(Enum):
     only_password = 3
     only_card = 4
     card_or_finger = 6
+    eight = 8
     card_and_finger = 10
     card_and_password = 11
     others = 200
@@ -145,8 +146,8 @@ EVENT_TYPES = DocDict({
     35: 'Door Inactive Time Zone (Press Fingerprint)',
     36: 'Door Inactive Time Zone (Exit Button)',
     37: 'Failed to Close during Normal Open Time Zone',
-    41: '41?',
-    42: '42?',
+    41: 'Verify Type Invalid',
+    42: 'WG Format Error',
     101: 'Duress Password Open',
     102: 'Opened Accidentally',
     103: 'Duress Fingerprint Open',
@@ -157,7 +158,7 @@ EVENT_TYPES = DocDict({
     204: 'Normal Open Time Zone Over',
     205: 'Remote Normal Opening',
     206: 'Device start',
-    208: '208?',
+    208: 'Door Opened by Superuser',
     220: 'Auxiliary Input Disconnected',
     221: 'Auxiliary Input Shorted',
     255: 'Actually that obtain door status and alarm status',
