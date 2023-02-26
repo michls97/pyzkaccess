@@ -145,6 +145,7 @@ EVENT_TYPES = DocDict({
     35: 'Door Inactive Time Zone (Press Fingerprint)',
     36: 'Door Inactive Time Zone (Exit Button)',
     37: 'Failed to Close during Normal Open Time Zone',
+    41: '41?',
     101: 'Duress Password Open',
     102: 'Opened Accidentally',
     103: 'Duress Fingerprint Open',
